@@ -417,7 +417,7 @@ width: 40px
     right: 10%;
 }
 .project-content-left{
-    left: 10%;
+    left: 13%;
 }
 
 .projext-box-content:hover .project-content{
@@ -507,6 +507,10 @@ gap: 10%;
 }
 .skill-container img{
      width: 9rem;
+     transition: transform 0.8s ease-in-out;
+}
+.skill-container img:hover{
+     transform: scale(1.3);
 }
 .skill-heading{
      color: var(--bgOrange);
